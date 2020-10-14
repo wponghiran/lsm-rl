@@ -5,7 +5,7 @@
 This repository contains code to "Reinforcement Learning With Low-Complexity Liquid State Machines" paper published in [Frontier Neuroscience](https://www.frontiersin.org/articles/10.3389/fnins.2019.00883/full).
 
 
-# Instruction to run experiments
+## Instruction to run experiments
 
 
 1. Create conda environment & activate it
@@ -99,7 +99,7 @@ SEED=001993 bash -c 'python run_atariram.py --env Freeway --checkpoint_dir Freew
 SEED=001993 bash -c 'python run_atariram.py --env Krull --checkpoint_dir Krull_seed${SEED}_s5e3_n500_h128_t0p5 --seed ${SEED} --train_steps 5e3 --n_neurons 500 --hidden_size 128 --test'
 ```
 
-# Set of initial random seeds
+## Set of initial random seeds
 001993
 109603
 619089
@@ -109,7 +109,7 @@ SEED=001993 bash -c 'python run_atariram.py --env Krull --checkpoint_dir Krull_s
 410290
 908818
 
-# Citation
+## Citation
 If you use this code in your work, please cite the following [paper](https://www.frontiersin.org/articles/10.3389/fnins.2019.00883/full)
 ```
 @article{ponghiran2019reinforcement,
