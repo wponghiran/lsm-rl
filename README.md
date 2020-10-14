@@ -36,8 +36,7 @@ Model is trained for 100,000 steps in total which is equally divided into 100 se
 ```
 SEED=001993 bash -c 'python run_cartpole.py --checkpoint_dir ./checkpoints/CartPole_seed${SEED}_s1e3_n150_h32 --seed ${SEED} --train_steps 1e3 --n_neurons 150 --hidden_size 32 --test'
 ```
-Above command runs evluation on saved models. Testing take 1/2hr and will generate log file ending with \*\_test.log
-If you don't train model from scratch, checkpoints are available for download at 
+Above command runs evluation on saved models. Testing take 1/2hr and will generate log file ending with \*\_test.log.
 
 6. Plot results from testing over multiple random seeds 
 ```
