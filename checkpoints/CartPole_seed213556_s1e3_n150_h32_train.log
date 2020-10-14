@@ -1,0 +1,141 @@
+Namespace(batch_size=32, buffer_size=100000, checkpoint_dir='CartPole_seed213556_s1e3_n150_h32', checkpoint_freq=1000, device=device(type='cpu'), env_name='CartPole-v0', exploration_steps=20000, final_eps=0.001, gamma=0.95, hidden_size=32, log_freq=100, lr=0.0002, n_neurons=150, overwrite=False, rate_scale=0.1, seed=213556, start_steps=100.0, t_prb_start=0.0, t_prb_stop=0.1, t_sim=0.1, target_network_update_freq=10000.0, test=False, test_steps=1000, total_steps=100000, train_epoches=100, train_freq=1, train_steps=1000.0, warmup_steps=100)
+inp_size : 40
+n_neurons : 150
+LSM(inp_size=40, n_neurons=150)
+MLP(
+  (classifier): Sequential(
+    (0): Linear(in_features=120, out_features=32, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=32, out_features=2, bias=True)
+  )
+)
+==> Checkpoint path : CartPole_seed213556_s1e3_n150_h32
+=> Save checkpoint at timestep 0
+=> Save checkpoint at timestep 1000
+=> Save checkpoint at timestep 2000
+step 2489   episode 100.000   avg_reward 24.900   max_reward 96.000   percent_explore 87%
+=> Save checkpoint at timestep 3000
+=> Save checkpoint at timestep 4000
+step 4486   episode 200.000   avg_reward 19.970   max_reward 60.000   percent_explore 77%
+=> Save checkpoint at timestep 5000
+=> Save checkpoint at timestep 6000
+step 6612   episode 300.000   avg_reward 21.260   max_reward 84.000   percent_explore 66%
+=> Save checkpoint at timestep 7000
+=> Save checkpoint at timestep 8000
+step 8749   episode 400.000   avg_reward 21.370   max_reward 73.000   percent_explore 56%
+=> Save checkpoint at timestep 9000
+=> Save checkpoint at timestep 10000
+step 10516   episode 500.000   avg_reward 17.670   max_reward 47.000   percent_explore 47%
+=> Save checkpoint at timestep 11000
+step 11857   episode 600.000   avg_reward 13.410   max_reward 30.000   percent_explore 40%
+=> Save checkpoint at timestep 12000
+=> Save checkpoint at timestep 13000
+step 13263   episode 700.000   avg_reward 14.060   max_reward 30.000   percent_explore 33%
+=> Save checkpoint at timestep 14000
+step 14663   episode 800.000   avg_reward 14.000   max_reward 54.000   percent_explore 26%
+=> Save checkpoint at timestep 15000
+=> Save checkpoint at timestep 16000
+step 16092   episode 900.000   avg_reward 14.290   max_reward 54.000   percent_explore 19%
+=> Save checkpoint at timestep 17000
+step 17377   episode 1000.000   avg_reward 12.850   max_reward 36.000   percent_explore 13%
+=> Save checkpoint at timestep 18000
+step 18629   episode 1100.000   avg_reward 12.520   max_reward 32.000   percent_explore 6%
+=> Save checkpoint at timestep 19000
+step 19910   episode 1200.000   avg_reward 12.810   max_reward 38.000   percent_explore 0%
+=> Save checkpoint at timestep 20000
+step 20946   episode 1300.000   avg_reward 10.360   max_reward 25.000   percent_explore 0%
+=> Save checkpoint at timestep 21000
+=> Save checkpoint at timestep 22000
+step 22030   episode 1400.000   avg_reward 10.840   max_reward 30.000   percent_explore 0%
+=> Save checkpoint at timestep 23000
+step 23404   episode 1500.000   avg_reward 13.740   max_reward 40.000   percent_explore 0%
+=> Save checkpoint at timestep 24000
+=> Save checkpoint at timestep 25000
+step 25260   episode 1600.000   avg_reward 18.560   max_reward 62.000   percent_explore 0%
+=> Save checkpoint at timestep 26000
+=> Save checkpoint at timestep 27000
+step 27144   episode 1700.000   avg_reward 18.840   max_reward 78.000   percent_explore 0%
+=> Save checkpoint at timestep 28000
+step 28897   episode 1800.000   avg_reward 17.530   max_reward 45.000   percent_explore 0%
+=> Save checkpoint at timestep 29000
+=> Save checkpoint at timestep 30000
+step 30760   episode 1900.000   avg_reward 18.630   max_reward 48.000   percent_explore 0%
+=> Save checkpoint at timestep 31000
+=> Save checkpoint at timestep 32000
+step 32483   episode 2000.000   avg_reward 17.230   max_reward 51.000   percent_explore 0%
+=> Save checkpoint at timestep 33000
+=> Save checkpoint at timestep 34000
+step 34521   episode 2100.000   avg_reward 20.380   max_reward 54.000   percent_explore 0%
+=> Save checkpoint at timestep 35000
+=> Save checkpoint at timestep 36000
+=> Save checkpoint at timestep 37000
+step 37327   episode 2200.000   avg_reward 28.060   max_reward 72.000   percent_explore 0%
+=> Save checkpoint at timestep 38000
+=> Save checkpoint at timestep 39000
+=> Save checkpoint at timestep 40000
+step 40928   episode 2300.000   avg_reward 36.010   max_reward 93.000   percent_explore 0%
+=> Save checkpoint at timestep 41000
+=> Save checkpoint at timestep 42000
+=> Save checkpoint at timestep 43000
+=> Save checkpoint at timestep 44000
+=> Save checkpoint at timestep 45000
+step 45569   episode 2400.000   avg_reward 46.410   max_reward 142.000   percent_explore 0%
+=> Save checkpoint at timestep 46000
+=> Save checkpoint at timestep 47000
+=> Save checkpoint at timestep 48000
+=> Save checkpoint at timestep 49000
+=> Save checkpoint at timestep 50000
+=> Save checkpoint at timestep 51000
+=> Save checkpoint at timestep 52000
+step 52112   episode 2500.000   avg_reward 65.430   max_reward 200.000   percent_explore 0%
+=> Save checkpoint at timestep 53000
+=> Save checkpoint at timestep 54000
+=> Save checkpoint at timestep 55000
+=> Save checkpoint at timestep 56000
+=> Save checkpoint at timestep 57000
+=> Save checkpoint at timestep 58000
+=> Save checkpoint at timestep 59000
+step 59522   episode 2600.000   avg_reward 74.100   max_reward 200.000   percent_explore 0%
+=> Save checkpoint at timestep 60000
+=> Save checkpoint at timestep 61000
+=> Save checkpoint at timestep 62000
+=> Save checkpoint at timestep 63000
+=> Save checkpoint at timestep 64000
+=> Save checkpoint at timestep 65000
+=> Save checkpoint at timestep 66000
+=> Save checkpoint at timestep 67000
+=> Save checkpoint at timestep 68000
+step 68825   episode 2700.000   avg_reward 93.030   max_reward 200.000   percent_explore 0%
+=> Save checkpoint at timestep 69000
+=> Save checkpoint at timestep 70000
+=> Save checkpoint at timestep 71000
+=> Save checkpoint at timestep 72000
+=> Save checkpoint at timestep 73000
+=> Save checkpoint at timestep 74000
+=> Save checkpoint at timestep 75000
+=> Save checkpoint at timestep 76000
+=> Save checkpoint at timestep 77000
+=> Save checkpoint at timestep 78000
+=> Save checkpoint at timestep 79000
+step 79836   episode 2800.000   avg_reward 110.110   max_reward 200.000   percent_explore 0%
+=> Save checkpoint at timestep 80000
+=> Save checkpoint at timestep 81000
+=> Save checkpoint at timestep 82000
+=> Save checkpoint at timestep 83000
+=> Save checkpoint at timestep 84000
+=> Save checkpoint at timestep 85000
+=> Save checkpoint at timestep 86000
+=> Save checkpoint at timestep 87000
+=> Save checkpoint at timestep 88000
+=> Save checkpoint at timestep 89000
+=> Save checkpoint at timestep 90000
+=> Save checkpoint at timestep 91000
+=> Save checkpoint at timestep 92000
+step 92109   episode 2900.000   avg_reward 122.730   max_reward 200.000   percent_explore 0%
+=> Save checkpoint at timestep 93000
+=> Save checkpoint at timestep 94000
+=> Save checkpoint at timestep 95000
+=> Save checkpoint at timestep 96000
+=> Save checkpoint at timestep 97000
+=> Save checkpoint at timestep 98000
+=> Save checkpoint at timestep 99000
